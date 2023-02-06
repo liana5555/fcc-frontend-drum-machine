@@ -1,0 +1,66 @@
+main {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+h1 {
+  color:hsla(212, 97%, 33%)
+}
+
+
+#drum-machine {
+  min-width: 400px;
+  min-height: 300px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#display {
+  width: 30%;
+  background-color: azure;
+  min-height: 100px;
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.drumpad_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.drum-pad {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  border-radius: 5px;
+  background-color: lightskyblue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.drum-pad:hover {
+  background-color: azure;
+}

@@ -1,0 +1,2 @@
+# FreeCodeCamp Frontend Project: Build a Drum Machine
+Link to user stories of the project: https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine
